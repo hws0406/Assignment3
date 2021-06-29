@@ -1,6 +1,5 @@
 import java.awt.EventQueue;
 import java.awt.Image;
-import java.awt.Toolkit;
 
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
@@ -84,7 +83,7 @@ public class CustomerLogin extends JFrame {
 		loginButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(usernameTextField.getText().equals("Sherry") && passwordTextField.getText().equals("sherry@1314")) {
-					JOptionPane.showMessageDialog(null, "Login Successfully. \nWelcome Back!", "HWS Clothing Rental", JOptionPane.INFORMATION_MESSAGE);	
+					JOptionPane.showMessageDialog(null, "Login Successfully. \nWelcome Back " + usernameTextField.getText() + "!", "HWS Clothing Rental", JOptionPane.INFORMATION_MESSAGE);	
 					CustomerPanel cPanel = new CustomerPanel();
 					cPanel.setVisible(true);
 				}
