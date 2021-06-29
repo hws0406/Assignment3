@@ -23,7 +23,6 @@ import java.awt.event.MouseEvent;
 public class CustomerLogin extends JFrame {
 
 	private JPanel contentPane;
-	private JFrame frame;
 	private JTextField usernameTextField;
 	private JTextField passwordTextField;
 
