@@ -130,5 +130,11 @@ public class CustomerLogin extends JFrame {
 		registerLabel.setBounds(10, 485, 484, 31);
 		contentPane.add(registerLabel);
 		
+		JLabel backgroundLabel = new JLabel("");
+		backgroundLabel.setBounds(0, 0, 1563, 1080);
+		contentPane.add(backgroundLabel);
+		Image img1 = new ImageIcon(this.getClass().getResource("turquoise.jpg")).getImage();
+		backgroundLabel.setIcon(new ImageIcon(img1));
+		
 	}
 }
