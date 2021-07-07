@@ -203,5 +203,11 @@ public class CustomerRegistration extends JFrame {
 		backButton.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		backButton.setBounds(678, 10, 98, 42);
 		contentPane.add(backButton);
+		
+		JLabel backgroundLabel = new JLabel("");
+		backgroundLabel.setBounds(0, 0, 1563, 1080);
+		contentPane.add(backgroundLabel);
+		Image img1 = new ImageIcon(this.getClass().getResource("turquoise.jpg")).getImage();
+		backgroundLabel.setIcon(new ImageIcon(img1));
 	    	}
 }
