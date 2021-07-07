@@ -248,5 +248,15 @@ public class CustomerPanel extends JFrame {
 		cancelButton.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		cancelButton.setBounds(762, 586, 151, 42);
 		contentPane.add(cancelButton);
+		
+		JLabel backgroundLabel = new JLabel("");
+		backgroundLabel.setBounds(367, 0, 1563, 1080);
+		contentPane.add(backgroundLabel);
+		Image img1 = new ImageIcon(this.getClass().getResource("matte.jpg")).getImage();
+		backgroundLabel.setIcon(new ImageIcon(img1));
+		
+		JLabel backgroundLabel1 = new JLabel("");
+		backgroundLabel1.setBounds(0, 0, 369, 697);
+		contentPane.add(backgroundLabel1);
 	}
 }
